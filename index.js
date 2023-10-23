@@ -3,7 +3,6 @@ window.onload = function () {
     trigger: ".cont-1",
     start: "100% 90%",
     end: "50% 50%",
-      delay: "0.5",
 
     scrub: true,
   });
@@ -19,8 +18,8 @@ window.onload = function () {
   tl.from(
     "#bottle",
     {
-      rotate: "25deg",
-      opacity: "0",
+      y: "-1800px",
+      rotate: "0",
       duration: "1",
       // delay:"0.05"
     },
