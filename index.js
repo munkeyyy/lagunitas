@@ -1,7 +1,7 @@
 window.onload = function () {
   var tl = gsap.timeline({
     trigger: ".cont-1",
-    start: "100% 90%",
+    start: "0% 90%",
     end: "50% 50%",
 
     scrub: true,
