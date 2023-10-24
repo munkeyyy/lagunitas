@@ -12,6 +12,8 @@ window.onload = function () {
     {
       opacity: "0",
       y: "-100px",
+      duration:1,
+      delay:0.5,
     },
     "sa"
   );

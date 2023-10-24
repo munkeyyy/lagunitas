@@ -13,6 +13,7 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   overflow-x: hidden;
+  scroll-behavior: smooth;
 }
 body::-webkit-scrollbar {
   display: none;
@@ -246,7 +247,7 @@ ul li {
   /* margin-top: -8vh; */
 }
 .item {
-  height: 40vh;
+  height: 20vh;
   width: 100%;
   display: flex;
   flex-direction: column;
